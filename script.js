@@ -35,8 +35,8 @@ Just seeing you happy is already enough for me. Just seeing you smile when I see
 You don't have to say anything gwen. You don't have to reply in a certain way. need lang jud nako ni ipagawas, because you deserve to know how much you mean to me, even if it's just from afar.
 
 Whatever you decide, thank you for letting me feel this. Thank you for making me happy, even without trying☺️☺️`,
-  closing:"",   // optional extra line under the letter
-  signature:"[Your Name]",
+  closing:"Genuinely Confessing,",   // optional extra line under the letter
+  signature:"Marc",
   music:"ordinary.mp3",          // put your own copy of the song next to index.html with this exact name
   musicTitle:"Ordinary — Marc Velasco",
   photoFolder:"photos/",
