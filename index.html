@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A little something, just for you</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@500;600&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="photos"></div>
+<canvas id="fx"></canvas>
+<div id="ring"></div>
+
+<!-- Screen 1: the blue bouquet -->
+<main class="screen" id="s1">
+  <p class="kicker">A little something, just for you.</p>
+  <button id="bqBtn" aria-label="Tap the bouquet">
+    <span id="glow"></span>
+    <span class="float" style="display:block"><svg id="bq" viewBox="0 0 300 360" aria-hidden="true"></svg></span>
+  </button>
+  <p class="sub">Tap the bouquet.</p>
+</main>
+
+<!-- Screen 2: envelope, then the letter -->
+<main class="screen gone hide" id="s2">
+  <div id="envIn" style="display:flex;flex-direction:column;align-items:center">
+    <div id="env"><div class="body"></div><div class="flap"></div><div class="seal">♥</div></div>
+    <button id="open">Open My Letter</button>
+  </div>
+  <div id="paper" tabindex="0" aria-live="polite" style="position:absolute">
+    <div id="out"></div>
+    <div id="end"><p id="close"></p><div id="sig"></div></div>
+  </div>
+</main>
+
+<!-- Customize text, photos and music in script.js (CONFIG at the top) or with the gear button -->
+<!-- Music player -->
+<div id="pl" class="hide"><button id="pp" aria-label="Play or pause music">▶</button>
+  <input id="vol" type="range" min="0" max="1" step="0.05" value="0.6" aria-label="Volume"></div>
+
+<!-- Discreet settings (the ⚙ in the bottom-left corner) -->
+<button id="gear" aria-label="Customize">⚙</button>
+<section id="cfg" aria-label="Customize">
+  <h3>Customize</h3>
+  <label for="iName">Her name</label><input id="iName" type="text">
+  <label for="iLetter">Letter</label><textarea id="iLetter"></textarea>
+  <label for="iClose">Closing line</label><input id="iClose" type="text">
+  <label for="iSig">Signature</label><input id="iSig" type="text">
+  <button class="btn" id="apply">Apply text</button>
+  <label>Photos (JPG, PNG, WEBP — stay on this device)</label>
+  <input id="iPhotos" type="file" accept="image/jpeg,image/png,image/webp" multiple hidden>
+  <button class="btn alt" id="addPh">Add photos</button><button class="btn alt" id="clrPh">Remove all</button>
+  <div id="thumbs"></div>
+  <label for="iFreq">How often photos appear: <span id="fv"></span></label>
+  <input id="iFreq" type="range" min="1" max="10" step="0.5" value="4">
+  <label>Music (MP3)</label>
+  <input id="iMusic" type="file" accept="audio/mpeg,audio/mp3,.mp3" hidden>
+  <button class="btn alt" id="addMu">Choose MP3</button>
+  <div><button class="btn" id="done">Done</button></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
