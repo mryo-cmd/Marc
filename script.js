@@ -10,15 +10,50 @@
      You can also add extra photos live in the ⚙ panel (kept only until refresh).
    ===================================================================== */
 const CONFIG={
-  name:"[Her Name]",
-  letter:"I've been trying to find the right way to say this, and every plain way felt too small.\n\nSo here it is: you make ordinary days feel softer. Your laugh, the way you listen, the little things you do without noticing, they've stayed with me far longer than I expected.\n\nI like you. Truly. I wanted you to know, with nothing expected in return, just a small bouquet of words from someone who is glad you exist.",
-  closing:"Thank you for being exactly who you are.",
-  signature:"MarconRomle",
+  name:"Hello!!",
+  letter:`Hi gwen so umm hello, where do i start? hmm... okay so hi gwen how are you? wala ka nag expect ani no? haha surprise? at first kulbaan jud ko na i send ni saimo (i personally code/made this website by the way:>) and then nag wonder ko wala may mawala sako ug mo try ko diba so yeah nandito ako ngayon and you reading this, i hope dili ko nimo i judge:> okay mag sugod nako HAHAHAHAHA
+
+
+at first
+jud gwen, i only saw you as my classmate lang jud like no intentions, and of course youre beautiful thats why na notice kita agad, But the more I got to know you, the deeper it grew. And now I can't pretend anymore that it's nothing, at first simple admiration lang jud to cause youre smart, talented, sporty, and so so beautiful pero i didn't know na nagka dugay mas nidako akong pag tan aw saimo gwen i dont see you as a friend na but more than friends, im starting to miss you, ginapangita na tika and like naga pa buta² jud ko ato saakong feelings and wako kabalo na moabot ko sa ingani na point, i know complicated sya cause we were friends eh nice na unta atong pag-uban. 
+
+
+pero every time I see you, I just feel happy. Like, my mood instantly changes. Even if I'm having a bad day, just seeing your smile mapagaan na akong sarili, like grabe jud sya even me dili makatuo😆
+
+
+and you're really beautiful jud gwen like soso beautiful. Not just the way you look, because yes, you're really pretty, and I notice it every single time. But also the way you are. The way you laugh, the way you talk, the way you carry yourself, and your attitude really caught me jud like frrrrr
+
+
+I'm not saying this gwen to make things awkward ha (mag tagdanay japun ta please) I'm saying this lang because you deserve to know how much you make someone feel. and mapa happy ko without you even trying
+
+
+And I think that's the most beautiful thing about you.
+
+
+again gwen, I LIKE YOU. I really do.
+
+
+And I don't expect anything back from you. I'm not saying this para mapugos ka, or para ma-pressure ka to like me back. I'm saying this because I got tired of hiding na eh
+
+
+If you don't feel the same, it's okay like fr. I promise, I won't be mad. I won't change how I treat you. I just wanted you to know na  someone out there genuinely likes you diay, for who you are
+
+
+Just seeing you happy is already enough for me. Just seeing you smile when I see you, it already makes my day complete.
+
+
+You don't have to say anything gwen. You don't have to reply in a certain way. need lang jud nako ni ipagawas, because you deserve to know how much you mean to me, even if it's just from afar.
+
+
+Whatever you decide, thank you for letting me feel this. Thank you for making me happy, even without trying☺️☺️.`,
+  closing:"Genuinly Confessing,",
+  signature:"Marc",
   music:"",
   photoFolder:"photos/",
   photoFiles:["sample1.jpg","sample2.jpg","sample3.jpg"], // replace with your own file names
   photoEverySeconds:4
 };
+
 
 (()=>{
 const $=s=>document.querySelector(s), NS='http://www.w3.org/2000/svg';
